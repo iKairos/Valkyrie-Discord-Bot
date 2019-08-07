@@ -1,0 +1,26 @@
+{
+    "Discord Badge":[
+        {
+            "id":    "discord",
+            "price": "`1500` coins"
+        }
+    ],
+    "FTMR Badge":[
+        {
+            "id":    "ftmr",
+            "price": "`1500` coins"
+        }
+    ],
+    "Flame's Badge [Exclusive Badge]":[
+        {
+            "id":    "N/A",
+            "price": "`N/A` coins"
+        }
+    ],
+    "Bug Hunter's Badge [Exclusive Badge]":[
+        {
+            "id":    "N/A",
+            "price": "`N/A` coins"
+        }
+    ]
+}

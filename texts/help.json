@@ -1,0 +1,440 @@
+{
+    "General Commands":[
+        {
+            "cmd":      "help",
+            "usage":    "{}help <command: optional>",
+            "desc":     "Enumerates the bot's commands.",
+            "args":     "optional: <command>"
+        },
+        {
+            "cmd":      "avatar",
+            "usage":    "{}avatar <user: optional>",
+            "desc":     "Shows the user's discord avatar.",
+            "args":     "optional: <user>"
+        },
+        {
+            "cmd":      "about",
+            "usage":    "{}about",
+            "desc":     "Shows the bot's information.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "ping",
+            "usage":    "{}ping",
+            "desc":     "Calculates the latency between the servers and the bot.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "channelinfo",
+            "usage":    "{}channelinfo <channel: optional>",
+            "desc":     "Displays the information of a specific channel.",
+            "args":     "optional: <channel>"
+        },
+        {
+            "cmd":      "profile",
+            "usage":    "{}profile <user: optional>",
+            "desc":     "Shows your profile or a user's profile.",
+            "args":     "optional: <user>"
+        },
+        {
+            "cmd":      "giverep",
+            "usage":    "{}giverep <user: required>",
+            "desc":     "Gives a user reputation points.",
+            "args":     "required: <user>"
+        },
+        {
+            "cmd":      "setabout",
+            "usage":    "{}setabout <required: string>",
+            "desc":     "Sets your description in your profile.",
+            "args":     "required: <string>"
+        },
+        {
+            "cmd":      "suggest",
+            "usage":    "{}suggest <required: suggestion>",
+            "desc":     "Sends a suggestion to the moderators.",
+            "args":     "required: <suggestion>"
+        },
+        {
+            "cmd":      "report",
+            "usage":    "{}report <required: report>",
+            "desc":     "Sends a report to the moderators.",
+            "args":     "required: <report>"
+        },
+        {
+            "cmd":      "viewbgs",
+            "usage":    "{}viewbgs",
+            "desc":     "Sends Valkyrie's website for background viewing.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "top",
+            "usage":    "{}top",
+            "desc":     "Views Valkyrie's leaderboards.",
+            "args":     "None."
+        }
+    ],
+    "Member: Configurations":[
+        {
+            "cmd":      "toggleexp",
+            "usage":    "{}toggleexp",
+            "desc":     "Toggles exp gain from the bot.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "toggleinter",
+            "usage":    "{}toggleinter",
+            "desc":     "Toggles bot interaction with the bot.",
+            "args":     "None."
+        }
+    ],
+    "Member: Fun Commands":[
+        {
+            "cmd":      "tts",
+            "usage":    "{}tts <required: language> <required: string>",
+            "desc":     "Sends an audio version of the string.",
+            "args":     "required: <language> <string>"
+        }
+    ],
+    "Member: Economy and Item":[
+        {
+            "cmd":      "daily",
+            "usage":    "{}daily",
+            "desc":     "Claims daily coin voucher.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "coins",
+            "usage":    "{}coins <user: optional>",
+            "desc":     "Shows your current coin/money count.",
+            "args":     "optional: <user>"
+        },
+        {
+            "cmd":      "givecoins",
+            "usage":    "{}givecoins <user: required> <amount: required>",
+            "desc":     "Transfer coins to another user.",
+            "args":     "required: user, amount"
+        },
+        {
+            "cmd":      "shop",
+            "usage":    "{}shop",
+            "desc":     "Shows the bot's shop.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "buy",
+            "usage":    "{}buy <item_id: required>",
+            "desc":     "Buys a certain item on the shop.",
+            "args":     "required: <item_id>."
+        },
+        {
+            "cmd":      "sell",
+            "usage":    "{}sell <item_id: required>",
+            "desc":     "Sells an item.",
+            "args":     "required: <item_id>"
+        },
+        {
+            "cmd":      "equip",
+            "usage":    "{}equip <item_id: required>",
+            "desc":     "Equips a certain item from the inventory.",
+            "args":     "required: item_id"
+        },
+        {
+            "cmd":      "unequip",
+            "usage":    "{}unequip <item_id: required>",
+            "desc":     "Unequips a currently equipped item.",
+            "args":     "required: item_id"
+        },
+        {
+            "cmd":      "myitems",
+            "usage":    "{}myitems",
+            "desc":     "Enumerates your inventory.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "loot",
+            "usage":    "{}loot",
+            "desc":     "Loots through the messages for money and scrap.",
+            "args":     "None."
+        }
+    ],
+    "Member: Gambling and Games":[
+        {
+            "cmd":      "slots",
+            "usage":    "{}slots <bet: optional>",
+            "desc":     "Plays the slot. (default bet is 50 coins)",
+            "args":     "optional: bet (must be integer)"
+        },
+        {
+            "cmd":      "coinflip",
+            "usage":    "{}coinflip <option: required> <bet: optional>",
+            "desc":     "Guess whether the coin lands heads or tails. (default bet is 50 coins)",
+            "args":     "required: option | optional: bet (must be integer)"
+        },
+        {
+            "cmd":      "gamble",
+            "usage":    "{}gamble <bet: optional?",
+            "desc":     "Gambles your bet for a chance of a higher income. (default bet is 50 coins)",
+            "args":     "optional: bet (must be integer)"
+        },
+        {
+            "cmd":      "opencrate",
+            "usage":    "{}opencrate <crate: required>",
+            "desc":     "Opens a crate with a key.",
+            "args":     "required: crate"
+        },
+        {
+            "cmd":      "ticketbuy",
+            "usage":    "{}ticketbuy <required: first number> <required: second number> <optional: bet>",
+            "desc":     "Bets on the lottery with a default bet of 50 coins.",
+            "args":     "required: <first number> <second number> | optional: <bet>"
+        },
+        {
+            "cmd":      "tickets",
+            "usage":    "{}tickets",
+            "desc":     "Views the tickets submitted plus the prize pool amount.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "quiz",
+            "usage":    "{}quiz",
+            "desc":     "Starts a quiz. Answers are case-insensitive.",
+            "args":     "None."
+        }
+    ],
+    "Member: Roles":[
+        {
+            "cmd":      "join",
+            "usage":    "{}join <required: role>",
+            "desc":     "Joins a self-assignable role.",
+            "args":     "required: role"
+        },
+        {
+            "cmd":      "leave",
+            "usage":    "{}leave <required: role>",
+            "desc":     "Leaves a self-assignable role.",
+            "args":     "required: role"
+        }
+    ],
+    "Moderator: Moderation":[
+        {
+            "cmd":      "registerall",
+            "usage":    "{}registerall",
+            "desc":     "Registers all of the user in a specific server.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "registeruser",
+            "usage":    "{}registeruser <user: required>",
+            "desc":     "Registers the user to the database",
+            "args":     "required: user"
+        },
+        {
+            "cmd":      "mute",
+            "usage":    "{}mute <required: user> <optional: duration>",
+            "desc":     "Mutes the user indefinitely or a specific amount of time.",
+            "args":     "required: user | optional: duration"
+        },
+        {
+            "cmd":      "unmute",
+            "usage":    "{}unmute <required: user>",
+            "desc":     "Unmutes a previously muted user.",
+            "args":     "required: user"
+        },
+        {
+            "cmd":      "warn",
+            "usage":    "{}warn <required: user> <required: reason>",
+            "desc":     "Warns a user.",
+            "args":     "required: user, reason"
+        },
+        {
+            "cmd":      "userinter",
+            "usage":    "{}userinter <required: user>",
+            "desc":     "Toggles a user's bot interaction permissions.",
+            "args":     "required: user"
+        },
+        {
+            "cmd":      "noreply",
+            "usage":    "{}noreply <required: user> <required: duration>",
+            "desc":     "Initiates a no-reply thread.",
+            "args":     "required: user, duration"
+        },
+        {
+            "cmd":      "purge",
+            "usage":    "{}purge <required: limit> <optional: user>",
+            "desc":     "Purges a number of messages in a channel.",
+            "args":     "required: limit | optional: user"
+        },
+        {
+            "cmd":      "poll",
+            "usage":    "{}poll <required: question> <required: options> <option2>...<optionN>",
+            "desc":     "Starts a poll.",
+            "args":     "required: question, options"
+        },
+        {
+            "cmd":      "announce",
+            "usage":    "{}announce <required: channel> <required: message>",
+            "desc":     "Announces a message.",
+            "args":     "required: channel, message"
+        }
+    ],
+    "Moderator: Server Settings":[
+        {
+            "cmd":      "registerserver",
+            "usage":    "{}registerserver",
+            "desc":     "Registers the server in the database where the command is invoked.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "revokeserver",
+            "usage":    "{}revokeserver",
+            "desc":     "Deletes the server in the database.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "togglelogging",
+            "usage":    "{}togglelogging",
+            "desc":     "Toggles logging within the server.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "togglesanction",
+            "usage":    "{}togglesanction",
+            "desc":     "Toggles sanction logging within the server.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "togglenrt",
+            "usage":    "{}togglenrt",
+            "desc":     "Toggles strict nrt feature within the server.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "muterole",
+            "usage":    "{}muterole <role>",
+            "desc":     "Sets the mute role to a local server role.",
+            "args":     "required: <role>"
+        },
+        {
+            "cmd":      "setlogs",
+            "usage":    "{}setlogs <channel>",
+            "desc":     "Sets the logging channel to a server channel.",
+            "args":     "required: <channel>"
+        },
+        {
+            "cmd":      "setvcrole",
+            "usage":    "{}setvcrole <role: required>",
+            "desc":     "Sets the auto voice channel role.",
+            "args":     "required: <role>"
+        },
+        {
+            "cmd":      "removevcrole",
+            "usage":    "{}removevcrole",
+            "desc":     "Removes the current auto voice channel role.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "setcmdchannel",
+            "usage":    "{}setcmdchannel <optional: channel>",
+            "desc":     "Sets a channel as a command spam channel.",
+            "args":     "optional: channel"
+        },
+        {
+            "cmd":      "removecmdchannel",
+            "usage":    "{}removecmdchannel <optional: channel>",
+            "desc":     "Removes a channel as a command spam channel.",
+            "args":     "optional: channel"
+        },
+        {
+            "cmd":      "setmuterole",
+            "usage":    "{}setmuterole <required: role>",
+            "desc":     "Sets a mute role in your server.",
+            "args":     "required: <role>"
+        },
+        {
+            "cmd":      "setmodrole",
+            "usage":    "{}setmodrole <required: role>",
+            "desc":     "Set a moderator role in your server.",
+            "args":     "required: <role>"
+        },
+        {
+            "cmd":      "setsuggestchannel",
+            "usage":    "{}setsuggestchannel <channel: optional>",
+            "desc":     "Sets a suggestions channel for admin view.",
+            "args":     "optional: <channel>"
+        },
+        {
+            "cmd":      "removesuggestchannel",
+            "usage":    "{}removesuggestchannel <channel: optional>",
+            "desc":     "Removes the current suggestions channel of admins in the server.",
+            "args":     "optional: <channel>"
+        },
+        {
+            "cmd":      "setpublicsuggestchannel",
+            "usage":    "{}setpublicsuggestchannel <channel: optional>",
+            "desc":     "Sets a suggestions channel for public view.",
+            "args":     "optional: <channel>"
+        },
+        {
+            "cmd":      "removepublicsuggestchannel",
+            "usage":    "{}removepublicsuggestchannel <channel: optional>",
+            "desc":     "Removes the current suggestions channel for public viewing in the server.",
+            "args":     "optional: <channel>"
+        },
+        {
+            "cmd":      "togglepublicsuggest",
+            "usage":    "{}togglepublicsuggest",
+            "desc":     "Toggles the public suggestions feature.",
+            "args":     "None."
+        },
+        {
+            "cmd":      "setwelcomemessage",
+            "usage":    "{}setwelcomemessage <required: message>",
+            "desc":     "Sets the welcome message for newcomers.",
+            "args":     "required: message"
+        },
+        {
+            "cmd":      "assignable",
+            "usage":    "{}assignable <required: role>",
+            "desc":     "Sets a role to be self-assignable.",
+            "args":     "required: role"
+        },
+        {
+            "cmd":      "removeassignable",
+            "usage":    "{}removeassignable <required: role>",
+            "desc":     "Removes a self-assignable role",
+            "args":     "required: role"
+        }
+    ],
+    "Moderator: Channel Settings":[
+        {
+            "cmd":      "registerchannel",
+            "usage":    "{}registerchannel <channel: optional>",
+            "desc":     "Registers a channel into the database.",
+            "args":     "optional: <channel>"
+        },
+        {
+            "cmd":      "registerallchannels",
+            "usage":    "{}registerallchannels <persistence: required>",
+            "desc":     "Registers all channels in a server.",
+            "args":     "required: <persistence>"
+        },
+        {
+            "cmd":      "revokechannel",
+            "usage":    "{}revokechannel <channel: optional>",
+            "desc":     "Deletes the channel from the database.",
+            "args":     "optional: <channel>"
+        },
+        {
+            "cmd":      "togglensfw",
+            "usage":    "{}togglensfw <channel: optional>",
+            "desc":     "Sets or removes the nsfw status of a channel.",
+            "args":     "optional: <channel>"
+        },
+        {
+            "cmd":      "setpersistence",
+            "usage":    "{}setpersistence <channel: optional>",
+            "desc":     "Configures the channel persistence level.",
+            "args":     "optional: <channel>"
+        }
+    ]
+}
