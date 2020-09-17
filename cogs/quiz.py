@@ -177,7 +177,7 @@ class Quiz:
 
         try:
             quizzes.pop(ctx.message.author.id)
-            await self.bot.say(f"❌ | You did not answered the question in time, the answer is **{correct}**!")
+            await self.bot.say(f"❌ | You did not answer the question in time, the answer is **{correct}**!")
         except:
             pass
 
